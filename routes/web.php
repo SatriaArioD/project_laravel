@@ -32,5 +32,6 @@ Route::prefix('admin')->group(function () {
     Route::get('/jsIntroduction', 'JsintroController@index')->name('jsintro');
     Route::get('/jsIntroduction_next', 'JsintroController@index_next')->name('jsintro_next');
   
-
+    Route::get('/jssatria', 'SatriaController@index')->name('jssatria');
+    Route::get('/jssatria_next', 'SatriaController@index_next')->name('jssatria_next');
 });
